@@ -1,0 +1,4 @@
+import math #importando módulo math
+x = 42 #criando variável x com o valor de 42
+resultado = ((math.cos(x)) **2) + ((math.sin(x)) **2) #criando uma variável resultado com a regra de seno e cosseno
+print (resultado) #mostrando o resultado com print
