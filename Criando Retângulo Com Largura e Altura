@@ -1,0 +1,4 @@
+def rectangle (string, width, height):
+    for i in range (height):
+        print(string * width)
+rectangle('H', 5, 4)
