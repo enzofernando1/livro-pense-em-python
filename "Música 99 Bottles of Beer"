@@ -1,0 +1,10 @@
+def bottle_verse(number):
+    if number <= 0:
+        print("Número de garrafas inválido!")
+        return
+
+    for i in range (number, 0, -1):
+        print(f"{i} garrafas de cerveja na parede, {i} garrafas de cerveja.")
+        print(f"Pegue uma, passe adiante, {i-1} garrafas de cerveja na parede.")
+        print()
+bottle_verse(5)
